@@ -1,0 +1,81 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{ background-color: black;}
+
+.corpo{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 100vh;
+width: 100%;}
+
+
+
+h1{font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  color: white;}
+
+ header{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+  
+    .Container{border: solid white;
+      height: 70vh;
+      width: 24vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #C1BDBA;}
+      
+      .botao{
+        display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 50px;
+width: 100%;
+height: 100px;}
+
+button{width: 50px;
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: yellow;
+}
+
+.Fundo{background-color: #6E686C;
+ width: 93%;
+  height: 33vh;
+  border: solid 3px;
+  border-radius: 0px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+
+h2{ background-color: #747A10 ;
+  width: 75%;
+  height: 25vh;
+  background: url(https://64.media.tumblr.com/06ae8d7fa2bb3455e04fd6fb1f9aaeb4/tumblr_n8rk48Xz2V1qd4q8ao1_500.gif);
+  background-size: contain;}
+
+.Ps{ display: flex; 
+  flex-direction: row;
+  align-items: flex-end;
+  width: 90%;
+  color: #302F7E;}
+
+.p1{ font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;}
+.p2{ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+margin-left: 5px;}
+
