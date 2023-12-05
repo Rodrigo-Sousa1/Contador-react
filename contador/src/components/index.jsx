@@ -8,13 +8,6 @@ export default function Header() {
     const MaiorNumero = () => {
         if( numero != 10) {setNUmero( numero + 1 )}
          }
-
-        setTimeout(() => {<audio src="https://youtu.be/Kg9KGulhSbI?si=n-3KGOPHjQO1O4nr"></audio>
-            
-        }, 1000);
-
-
-
     return(
         <>
         <body className="corpo">
